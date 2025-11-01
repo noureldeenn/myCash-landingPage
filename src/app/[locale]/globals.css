@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://your-font-url.com/udemy-sans.css");
+
+body {
+  font-family: "Udemy Sans", sans-serif;
+}
+
+no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: none !important;
+}
+
+.css-1usuzwp-MuiButtonBase-root-MuiTab-root {
+  color: gray;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: none !important;
+}
+
+.MuiTabs-indicator {
+  background-color: black;
+}
+
+.css-1l5xwdx-MuiButtonBase-root-MuiPaginationItem-root {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.css-1l5xwdx-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: transparent;
+  color: blueviolet;
+  font-size: 16px;
+}
+.css-btxnvc-MuiPaginationItem-root {
+  font-size: 22px;
+}
+.MuiPaginationItem-previousNext {
+  border: 1px solid black;
+}
+.css-1l5xwdx-MuiButtonBase-root-MuiPaginationItem-root.Mui-disabled {
+  opacity: 1;
+}
